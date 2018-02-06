@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="guest" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <title>Multi Cloud Storage</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="../css/coin-slider.css" />
+<script type="text/javascript" src="../js/cufon-yui.js"></script>
+<script type="text/javascript" src="../js/cufon-titillium-250.js"></script>
+<script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
+<script type="text/javascript" src="../js/coin-slider.min.js"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../cloudstyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        <h1><a href="#">Multi Cloud Storage <small>provides security in cloud storage</small></a></h1>
+      </div>
+      <div class="menu_nav">
+        <ul>
+          <li class="active"><a href="Home.aspx"><span>Home</span></a></li>
+          <li><a href="../Login.aspx"><span>Sign Out</span></a></li>
+         </ul>
+      </div>
+      <div class="clr"></div>
+      <div class="slider">
+        <div id="coin-slider"><a href="#"><img src="../images/slide2.jpg" width="935" height="307" alt="" /></a></div>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+        <div class="article">
+          <form id="form1" runat="server">
+    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    
+    </form>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="clr"></div>
+        <div class="gadget">
+          <h2 class="star"><span>Sidebar</span> Menu</h2>
+          <div class="clr"></div>
+          <ul class="sb_menu">
+              <li><a href="Home.aspx">Home</a></li>
+              <li><a href="Alfiles.aspx">All Files</a></li>
+              <li><a href="VerifiedFiles.aspx">Verified Files</a></li>
+              <li><a href="AlfilesCloud1.aspx">Files in Cloud 1</a></li>
+              <li><a href="AlfilesCloud2.aspx">Files in Cloud 2</a></li>
+              <li><a href="Alfilescloud3.aspx">Files in Cloud 3</a></li>
+              <li><a href="TPA.aspx">Create/Delete TPA</a></li>
+              <li><a href="FileOwners.aspx">File Owners</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="fbg">
+    <div class="fbg_resize">
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">Copyright &copy; <a href="#">Multi Cloud Storage</a>. All Rights Reserved</p>
+       
+      <div style="clear:both;"></div>
+    </div>
+  </div>
+</div>
+    
+</body>
+</html>

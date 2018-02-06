@@ -1,0 +1,48 @@
+﻿body {
+}
+.textbox {
+width:220px;
+height:22px;
+border:1px groove #827e7b;
+}
+.w {
+width:220px;
+height:22px;
+border:1px groove #827e7b;
+background-color:#b4b2b2;
+color:#525151;
+}
+.myButton {
+    height:40px;
+    width:100px;
+    border:1px groove #965151;
+    background-color:#0890e0;
+    color:#ffffff;
+    font-weight:bold;
+   font-size:10pt;
+    text-transform:uppercase;
+        outline: none;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+    .myButton:hover {
+        background-color:#FF490D;
+    }
+
+.heading {
+    margin:0 0 0px;
+	padding-left:15px;
+	height:35px;
+	color:#fff;
+	background:#FF490D;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:11pt;
+    /*    height:40px;
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:bold;
+    background-color:#5188a0;
+    color:#ffffff;*/
+}
