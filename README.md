@@ -1,0 +1,2 @@
+# Cloud-Information-Accountability-
+CLOUD INFORMATION ACCOUNTABILITY is an implementation of IEEE research journals Cooperative Provable Data Possession for Integrity Verification in Multi-Cloud Storage, Yan Zhu, Hongxin Hu, Gail-Joon Ahn, Senior Member, IEEE, Mengyang Yu and MR-PDP: Multiple-Replica Provable Data Possession,Reza Curtmola, Reza Curtmola, Osama Khan, Randal Burns, Giuseppe Ateniese
